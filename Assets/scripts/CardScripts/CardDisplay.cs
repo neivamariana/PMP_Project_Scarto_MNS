@@ -6,15 +6,9 @@ public class CardDisplay : MonoBehaviour
 
     public SpriteRenderer artworkSprite;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void SetCard(Cards card)
     {
-        
-        artworkSprite.sprite = cards.artwork;
-        
-        Debug.Log ("im working");
+        artworkSprite.sprite = card.artwork;
     }
-
 
 }
