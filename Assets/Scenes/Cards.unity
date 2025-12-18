@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7628c856056c68a41bd8b09e30c4ad92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cards: {fileID: 0}
+  cards: {fileID: 11400000, guid: 8a465d09a71caa1409161fcce3b2478f, type: 2}
   artworkSprite: {fileID: 960715094}
 --- !u!4 &941838912
 Transform:

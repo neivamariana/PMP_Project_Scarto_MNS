@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 //this script will manage the deck
 public class DeckManager : MonoBehaviour
 {
