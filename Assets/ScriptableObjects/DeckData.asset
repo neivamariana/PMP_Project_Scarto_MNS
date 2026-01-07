@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f0cad682aad944397481b740e7ec5c, type: 3}
   m_Name: DeckData
   m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 11400000, guid: 296a52e58a1a4b24795cf70905eaa187, type: 2}
+  - {fileID: 11400000, guid: f6fad4b72d0fd244cabd636cc9619cbe, type: 2}
+  - {fileID: 11400000, guid: cb64ee43861f3b148afcc350dfc35f30, type: 2}
+  - {fileID: 11400000, guid: bc9584ca6499f95499f72803ae092066, type: 2}
+  - {fileID: 11400000, guid: 7dc4240a5bb95354f8b27734361e3a49, type: 2}

@@ -19,6 +19,7 @@ public class Cards : ScriptableObject
     public Sprite artwork;
 
     public string description;
-
-    
+ 
 }
+
+   

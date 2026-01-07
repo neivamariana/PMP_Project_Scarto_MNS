@@ -12,12 +12,5 @@ public class CardDisplay : MonoBehaviour
     }
 
   
-    /* check if card spawn works at start
-    void Start()
-    {
-        artworkSprite.sprite = cards.artwork;
-
-    }
-
-    */
+  
 }

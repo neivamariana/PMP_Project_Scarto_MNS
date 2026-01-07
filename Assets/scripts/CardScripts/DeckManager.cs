@@ -1,18 +1,28 @@
+/*
 using UnityEngine;
 using System.Collections.Generic;
 //this script will manage the deck
 public class DeckManager : MonoBehaviour
 {
-  public List<Cards> FullDeck; 
+  
+  public void Deck()
+  {
+    
+  }
+
+
+  //i cry
+  //aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah
+  //stupid game
   public CardDisplay display;
 
-    void Start()
-    {
-        //make me a new deck pls 
-        Deck deck = new Deck(FullDeck);
-        deck.Shuffle();
 
-        Cards drawn = deck.Deal();
-        display.cards = drawn;
-    }
+  public void ShuffleDeck()
+  {
+   
+  }
+
+
+
 }
+*/
