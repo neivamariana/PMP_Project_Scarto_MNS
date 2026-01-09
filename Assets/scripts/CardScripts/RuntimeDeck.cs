@@ -4,7 +4,10 @@ using System.Collections.Generic;
 
 public class RuntimeDeck
 {
+   
     private List<Cards> cards;
+
+    public int Count => cards.Count;
 
     public RuntimeDeck(DeckData deckData)
     {
@@ -14,7 +17,6 @@ public class RuntimeDeck
     public void Shuffle()
     {
         cards.Shuffle();
-
     }
 
     public Cards Draw()
