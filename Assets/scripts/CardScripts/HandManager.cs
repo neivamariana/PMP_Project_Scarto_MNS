@@ -29,5 +29,15 @@ public class HandManager
         cards.Clear();
 
     }
+
+    public Cards PlayCard(int index)
+    {
+        if (index < 0 || index >= cards.Count)
+            return null;
+
+        Cards card = cards[index];
+        cards.RemoveAt(index);
+        return card;
+    }    
     
 }

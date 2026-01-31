@@ -17,6 +17,7 @@ public class RuntimeDeck
     public void Shuffle()
     {
         cards.Shuffle();
+        Debug.Log("Deck shuffled !!");
     }
 
     public Cards Draw()

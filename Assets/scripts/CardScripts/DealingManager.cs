@@ -21,7 +21,7 @@ public class DealingManager : MonoBehaviour
                         return;
 
                     player.Hand.AddCard(card);
-                    Debug.Log($"Dealt {card.name} to {player.Role}");
+                    //Debug.Log($"Dealt {card.name} to {player.Role}");
                 }
             }
         }
